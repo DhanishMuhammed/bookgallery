@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+
+    padding: 0px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+
+header{
+    background-color: rgb(54, 52, 52);
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+}
+
+header button{
+    width: 80px;
+    height:40px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.banner{
+    background-image: url(https://cdn.pixabay.com/photo/2016/07/31/16/24/banner-1559400_1280.jpg);
+    width: 1600px;
+height: 500px;
+background-size: cover;
+}
+
+section{
+    background-color: burlywood;
+    padding-top: 10px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    height: 500px;
+    width: 100px;
+    
+   
+}
+.col{
+    background-color: rgb(240, 171, 22);
+    margin: 10px;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+img{
+    border-radius: 30px;
+    padding-top: 20px;
+    width: 200px;
+    height: 300px;
+}
+section span{
+    color: rgb(202, 35, 5);
+}
+img:hover{
+    box-shadow: 2px 2px black;
+}
+
+#s2{
+background-color: rgb(202, 35, 5);
+border-radius: 10px;
+width: 70px;
+margin-top: 8px;
+}
+section button:hover{
+    background-color: white;
+color: white;
+
+}
+ footer{
+    background-color:rgb(240, 171, 22) ;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding-top: 10px;
+ }
+ footer h4{
+    color: white;
+ }
+
+ @media screen and (max-width:400px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    section{
+        width: 400px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    .banner{
+        width: 350px;
+        height: 600px;
+
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        margin-top:1450px;
+    }
+ }
+
+
+
